@@ -7,5 +7,7 @@ private final int taille;
 	private ShipModel(int taille){
 			this.taille = taille;		
 		}
-		
+	public int getsize(){
+		return this.taille;
+	}	
 }
