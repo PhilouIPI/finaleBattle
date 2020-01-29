@@ -1,6 +1,7 @@
 
-public class Plot {
+public interface Plot {
 	public int getAbscisse();
-	public int getOrdinate();
-	public Plot getPlotTo(Direction);
+	public int getOrdonnee();
+	public Plot getPlotTo(Direction d);
+	
 }
